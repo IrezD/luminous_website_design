@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Dennis Owie (aka IrezD) 
+- 👋 Hi, I’m Dennis Owie (username IrezD) 
 - 👀 I’m interested in Website Developement
 - 🌱 I’m currently learning HTML, CSS,& JavaScript as well as JS frameworks like REACT
 - 💞️ I’m looking to collaborate on some design projects
