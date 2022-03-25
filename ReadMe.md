@@ -1,5 +1,5 @@
-- 👋 Hi, I’m Dennis Owie (username IrezD) 
-- 👀 I’m interested in Website Developement
+- 👋 Hi, I’m Dennis Owie (@IrezD) 
+- 👀 I’m a Frontend developer
 - 🌱 I’m currently learning HTML, CSS,& JavaScript as well as JS frameworks like REACT
 - 💞️ I’m looking to collaborate on some design projects
 - 📫 How to reach me is to hit my mail.. dennysben@gmail.com
