@@ -6,6 +6,6 @@
 d<!---
 I saw this photo for lumious and decided to make a responsive design of it.
 --->
-link: https://irezd.github.io/luminous_website_design/src/
+<br> link to design: https://irezd.github.io/luminous_website_design/src/
 
 <a href="https://ibb.co/DLdQQcL"><img src="https://i.ibb.co/52ZLLp2/image.jpg" alt="image" border="0"></a>
