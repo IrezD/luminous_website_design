@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on some design projects
 - 📫 How to reach me is to hit my mail.. dennysben@gmail.com
 <br><br>d<!---
-I saw this photo for lumious and decided to make a responsive design of it.
+I saw this image of lumious and decided to make a resonspive design for it for the fun of it.
 --->
 <br> link to design: https://irezd.github.io/luminous_website_design/src/
 
