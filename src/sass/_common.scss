@@ -1,0 +1,37 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#white-text{
+    color: rgb(248, 248, 248);
+}
+
+a{
+    text-decoration: none;
+    color: $primary_fontColor;
+}
+
+body{
+    font-family: $primary_fontFamily;
+    color: $primary_fontColor;
+}
+
+.btn{
+    display: inline-block;
+    background-color: $primary_BgColor;
+    font-weight: 500;
+    font-size: .8rem;
+    padding: 10px 25px;
+    border-radius: 20px;
+    transition: transform 0.1s;
+
+     &:hover{
+         transform: scale(0.96);
+     }
+
+}
+
+// .body-container{
+//     padding: 0 20px; /*--side padding----*/
+// }

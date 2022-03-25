@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;700&family=Inter:wght@300;400;500&family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;500;600;700&family=Philosopher&family=Playfair+Display:wght@500;600;800&family=Prata&display=swap');
+
+$primary_BgColor:#FFC100 ;
+$secondary_BgColor: #F7971E;
+$neutral_Bgcolor:#fff;
+
+$primary_fontColor: #111826;
+$secondary_fontColor: #D3D5DA;
+
+$primary_fontFamily: 'Chillax', sans-serif;
+$secondary_fontFamily: 'DM Sans', sans-serif;
+
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

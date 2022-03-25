@@ -1,0 +1,136 @@
+header{
+    background-color: $neutral_Bgcolor;
+    position:fixed;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+
+    .logo{
+        font-size: 1rem;
+        padding-top: 5px;
+    }
+
+    .nav-container{
+        position: absolute;
+        background-color: $neutral_Bgcolor;
+        width: 100%;
+        z-index: 100;
+
+        transform: scale(1,0);
+        transition: transform 0.3s ease 0s;
+        transform-origin: top;
+
+    }
+    
+        .nav-menu{
+            padding: 20px 0;
+            list-style-type: none;
+
+        }
+        
+        .nav__items{
+            opacity: 0;
+            transition: opacity 0.2s ease 0s;
+        }
+        
+        .nav__links{
+            display: block;
+            font-weight: 500;
+            padding: 13px 0;
+            transition: all, 0.1s ease 0s;
+            
+            &:hover{
+                background-color: rgb(240, 240, 240);
+            }
+        }
+
+        
+        .nav--button{
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+}
+
+
+
+
+// Hambuger styling --------
+
+.nav-toggle{
+    display: none;
+}
+
+.nav-toggle:checked ~ .nav-container{
+    transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ .nav-container .nav__items{
+    opacity: 1;
+    transition: all 0.2s ease 0.5s;
+}
+
+// Close Hamburger button styling -------
+
+.nav-toggle:checked ~ .hamburger .strokes{
+    background-color: transparent;
+    transition: all, 0s ease 0s;
+}
+
+.nav-toggle:checked ~ .hamburger .strokes::before{
+    transform: rotate(-50deg);
+    width: 60%;
+
+}
+
+.nav-toggle:checked ~ .hamburger .strokes::after{
+    transform: rotate(50deg);
+    margin-bottom: -16px;
+    width: 60%;
+}
+
+
+.hamburger{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1.3em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hamburger__icon{
+    width: 40px;
+    position: relative;
+    margin-top: -8px;
+    
+    .strokes,
+    .strokes::before,
+    .strokes::after{
+        position: absolute;
+        content: "";
+        left: 0;
+        
+        width: 80%;
+        height: 2.4px;
+        background-color: black;
+        border-radius: 20px;
+        transition: all, 0.3s ease 0s;
+    }
+
+    .strokes{
+        transition: all, 0.2s ease .2s;
+    }
+    
+    .strokes::before{
+        top: 8px;
+    }
+    
+    .strokes::after{
+        bottom: 8px;
+        width: 100%;
+    }
+
+}
+
