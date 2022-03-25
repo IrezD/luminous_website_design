@@ -179,7 +179,8 @@ header .nav--button {
 }
 
 .showcase-image {
-  margin-top: 20px;
+  margin-top: 25px;
+  padding-top: 0px;
   padding-bottom: 10px;
 }
 
@@ -274,14 +275,17 @@ header .logo,
     padding-top: 40px;
   }
 
+  .right-arrow-icon {
+    padding-left: 20px;
+  }
   .right-arrow-icon__custom {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 
   .showcase-image {
+    margin-top: 0;
     flex-basis: 50%;
     height: 620px;
-    margin-top: 0;
   }
 
   .partners {
